@@ -1,0 +1,41 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HALUNHAKU</title>
+  <desc id="desc">Designing and shipping thoughtful software.</desc>
+  <defs>
+    <linearGradient id="background" x1="52" y1="20" x2="1138" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17181B"/>
+      <stop offset="0.52" stop-color="#0C0D10"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(940 40) rotate(135) scale(430 390)">
+      <stop stop-color="#80B9FF" stop-opacity="0.22"/>
+      <stop offset="0.48" stop-color="#8A7DFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#050506" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="949" y1="109" x2="1087" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset="0.48" stop-color="#AFCBFF"/>
+      <stop offset="1" stop-color="#9D91FF"/>
+    </linearGradient>
+    <filter id="blur" x="775" y="-86" width="450" height="450" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="54"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="27.25" stroke="white" stroke-opacity="0.1" stroke-width="1.5"/>
+  <ellipse cx="1000" cy="139" rx="171" ry="158" fill="#6C8FFF" fill-opacity="0.12" filter="url(#blur)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="76" y="84" fill="#A7A9AF" font-size="16" font-weight="600" letter-spacing="3.2">DESIGN · BUILD · SHIP</text>
+    <text x="72" y="190" fill="#F5F5F7" font-size="72" font-weight="650" letter-spacing="-2.8">HALUNHAKU</text>
+    <text x="76" y="244" fill="#A7A9AF" font-size="22" font-weight="400" letter-spacing="0.1">Thoughtful software, built to feel simple.</text>
+  </g>
+
+  <g opacity="0.98">
+    <path d="M984 108H1018V252H984V108Z" fill="url(#mark)"/>
+    <path d="M1052 108H1086V252H1052V108Z" fill="url(#mark)"/>
+    <path d="M1018 163H1052V197H1018V163Z" fill="url(#mark)"/>
+  </g>
+</svg>
